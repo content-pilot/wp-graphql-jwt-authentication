@@ -36,7 +36,7 @@ jobs:
             - name: Create artifact
               uses: montudor/action-zip@v1.0.0
               with:
-                  args: zip -X -r dist/${{ github.event.repository.name }}.zip . -x *.git* node_modules/\* .* "*/\.*" travis.yml codeception.dist.yml codeception.yml .editorconfig dev-helpers** build**
+                  args: zip -X -r dist/${{ github.event.repository.name }}.zip . -x *.git* node_modules/\* .* "*/\.*" .editorconfig dev-helpers** build**
             # Upload our ZIP archive as an asset to the release we created earlier
             - name: Upload release asset
               uses: actions/upload-release-asset@v1

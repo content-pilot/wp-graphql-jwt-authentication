@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'WPGraphQL\\JWT_Authentication\\' => array($baseDir . '/src'),
+    'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => array($vendorDir . '/dealerdirect/phpcodesniffer-composer-installer/src'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
 );

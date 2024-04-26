@@ -11,6 +11,10 @@ class ComposerStaticInitb81212723df6ec6a4125604686c14dbf
         array (
             'WPGraphQL\\JWT_Authentication\\' => 29,
         ),
+        'P' => 
+        array (
+            'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 57,
+        ),
         'F' => 
         array (
             'Firebase\\JWT\\' => 13,
@@ -21,6 +25,10 @@ class ComposerStaticInitb81212723df6ec6a4125604686c14dbf
         'WPGraphQL\\JWT_Authentication\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src',
         ),
         'Firebase\\JWT\\' => 
         array (
@@ -35,8 +43,10 @@ class ComposerStaticInitb81212723df6ec6a4125604686c14dbf
         'Firebase\\JWT\\ExpiredException' => __DIR__ . '/..' . '/firebase/php-jwt/src/ExpiredException.php',
         'Firebase\\JWT\\JWK' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWK.php',
         'Firebase\\JWT\\JWT' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWT.php',
+        'Firebase\\JWT\\JWTExceptionWithPayloadInterface' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php',
         'Firebase\\JWT\\Key' => __DIR__ . '/..' . '/firebase/php-jwt/src/Key.php',
         'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
+        'PHPCSStandards\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin' => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src/Plugin.php',
         'WPGraphQL\\JWT_Authentication\\Auth' => __DIR__ . '/../..' . '/src/Auth.php',
         'WPGraphQL\\JWT_Authentication\\Login' => __DIR__ . '/../..' . '/src/Login.php',
         'WPGraphQL\\JWT_Authentication\\ManageTokens' => __DIR__ . '/../..' . '/src/ManageTokens.php',

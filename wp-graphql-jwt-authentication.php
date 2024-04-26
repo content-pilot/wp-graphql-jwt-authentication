@@ -24,15 +24,6 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-/**
- * If the codeception remote coverage file exists, require it.
- *
- * This file should only exist locally or when CI bootstraps the environment for testing
- */
-if ( file_exists( __DIR__ . '/c3.php' ) ) {
-	require_once( 'c3.php' );
-}
-
 if ( ! class_exists( '\WPGraphQL\JWT_Authentication' ) ) :
 
 	/**
